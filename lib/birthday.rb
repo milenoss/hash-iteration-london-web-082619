@@ -16,4 +16,10 @@ end
 def young_birtday(kids)
   kids.each do |k,v|
     if v < 12 
-      puts ""
+      puts "Happy Birthday #{k}! You are now #{v} years old!"
+    else
+      "You are too old for this"
+    end
+  end
+  kids
+end
