@@ -21,5 +21,5 @@ def age_appropriate_birthday(birthday_kids)
       "You are too old for this."
     end
   end
-  kids
+  birthday_kids
 end
